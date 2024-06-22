@@ -1,0 +1,109 @@
+/* Text */
+
+h1 {
+    font-family: "Roboto", "Open Sans", "sans-serif";
+    font-weight: 100;
+    font-size: 3em;
+    font-variant: small-caps; /* All letters are in capital */
+    color: white;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Monaco", "Actor", "Tahoma", "Verdana", "Arial", "sans-serif";
+    color: SteelBlue;
+}
+
+body {
+    font-family: "Monaco", "Actor", "Tahoma", "Verdana", "Arial", "sans-serif";
+    color: black;
+    text-align: left;
+}
+
+
+/* Elements */
+
+header {
+    background-color: Navy;
+    margin: 20px;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(200, 200, 200); /* Light grey */
+}
+
+footer {
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+hr {
+    border: none;
+    align: center;
+    background-color: black;
+    height: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    background-color: LightSteelBlue;
+}
+
+
+/* Widgets */
+
+.title-borders {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+
+/* Add style */
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.in-header {
+    text-align: center;
+    color: white;
+}
+
+.in-footer {
+    text-align: center;
+    color: white;
+}
